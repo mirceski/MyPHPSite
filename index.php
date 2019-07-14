@@ -1,98 +1,29 @@
+<?php include("includes/config.php");?>
 <!DOCTYPE HTML>
 <html>
 
 <head>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <?php include("includes/head-tag-contents.php");?>
 </head>
 
 <body>
-
-<?php
-require_once "config.php";
-$sql = "SELECT * FROM test.mytable;";
-
-$result = mysqli_query($link, $sql)
-
-
-?>
-
-
-
-
-<form method="post" action="DisplayValues.php">
-
-        <table>
-            <tr>
-                <td>Name:</td>
-                <td><input type = "text" name = "name" value="">
-                </td>
-            </tr>
-
-            <tr>
-                <td>Surname: </td>
-                <td><input type = "text" name = "surname" value="">
-                </td>
-            </tr>
-
-            <tr>
-                <td>Age:</td>
-                <td> <input type = "number" name = "age" value="">
-                </td>
-            </tr>
-
-            <tr>
-                <td>E-mail:</td>
-                <td><input type = "text" name = "email"></td value="">
-            </tr>
-
-            <tr>
-                <td>
-                    <input type = "submit" name = "submit" value = "Submit">
-                </td>
-            </tr>
-
-        </table>
-
-
+<?php include("includes/navigation.php");?>
+<br>
+<br>
+<div class="container">
+    <h2 style="text-align: center">PHP coding tasks:</h2>
+    <ol>
+        <li>Kreiranje forma so nekolku inputi i prikazuvanje na vnesenite podatoci na druga strana.</li>
+        <li>Kreiranje na meni za naracka i ispisuvanje na vrednostite na naracanite jadenja so presmetka na cenite.</li>
+        <li>Koristenje na foreach - jamki i nizi.</li>
+        <li>Kreiranje na tabela vo baza i soodvetna CRUD - operacija.</li>
+    </ol>
     <br>
-
-    <div class="container">
-        <h2>Записи во база</h2>
-    <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Surname</th>
-            <th>Age</th>
-            <th>E-mail</th>
-            </tr>
-        </thead>
-        <tbody>
-        <?php
-        while($row = mysqli_fetch_array($result)){
-        echo "<tr>";
-            echo "<td>" . $row['id'] . "</td>";
-            echo "<td>" . $row['name'] . "</td>";
-            echo "<td>" . $row['surname'] . "</td>";
-            echo "<td>" . $row['age'] . "</td>";
-            echo "<td>" . $row['email'] . "</td>";
-            echo "</tr>";
-        }
-        ?>
-        </tbody>
-    </table>
-    </div>
-
-
-
-
-</form>
-
-
+    <p>Taskovite moze da se simnat na slednive linkovi:</p>
+    <a href="files/2%20Task.docx">Task 2</a>
+    <a href="files/3%20Task.docx">Task 3</a>
+    <a href="files/4%20Task.docx">Task 4</a>
+</div>
 
 </body>
 </html>
