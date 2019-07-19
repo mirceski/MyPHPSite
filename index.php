@@ -17,12 +17,14 @@
         <li>Kreiranje na meni za naracka i ispisuvanje na vrednostite na naracanite jadenja so presmetka na cenite.</li>
         <li>Koristenje na foreach - jamki i nizi.</li>
         <li>Kreiranje na tabela vo baza i soodvetna CRUD - operacija.</li>
+        <li>Prikaz na tabela so podatoci od json fajl.</li>
     </ol>
     <br>
     <p>Taskovite moze da se simnat na slednive linkovi:</p>
-    <a href="files/2%20Task.docx">Task 2</a>
-    <a href="files/3%20Task.docx">Task 3</a>
-    <a href="files/4%20Task.docx">Task 4</a>
+    <a href="files/Tasks/2%20Task.docx">Task 2</a>
+    <a href="filesTasks/3%20Task.docx">Task 3</a>
+    <a href="filesTasks/4%20Task.docx">Task 4</a>
+    <a href="filesTasks/5%20Task.docx">Task 5</a>
 </div>
 
 </body>

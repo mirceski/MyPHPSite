@@ -19,6 +19,9 @@
             <li class="nav-item">
                 <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'vraboteni.php') echo 'active' ?>" href="vraboteni.php">Task 4</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'table.php') echo 'active' ?>" href="table.php">Task 5</a>
+            </li>
         </ul>
     </div>
 </nav>

@@ -1,0 +1,597 @@
+{
+  "e6874041-cc77-42ed-aa6c-5d2455591544":{
+    "id":"e6874041-cc77-42ed-aa6c-5d2455591544",
+    "name":"FIX/Business Call/VOICE FIXED",
+    "date_entered":"2019-07-08 12:41:52",
+    "date_modified":"2019-07-09 10:50:47",
+    "modified_user_id":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+    "created_by":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+    "description":null,
+    "deleted":"0",
+    "record_line_type":"product_catalog_related",
+    "product_line_id":"859988C9-0C8A-390A-E053-303BE80A0396",
+    "product_line_name":"VOICE FIXED",
+    "product_type_id":"859988C9-0CB0-390A-E053-303BE80A0396",
+    "product_type_name":"Business Call",
+    "portfolio_id":"859988C9-0C80-390A-E053-303BE80A0396",
+    "portfolio_name":"FIX",
+    "onetime_discount_percent":30,
+    "monthly_discount_percent":5,
+    "total_discount_percent":null,
+    "parent_fc_record_line_id":null,
+    "new_with_id":false,
+    "items":{
+      "e7253f47-86bb-5e62-503a-5d2455c812d8":{
+        "id":"e7253f47-86bb-5e62-503a-5d2455c812d8",
+        "name":"Business Call L",
+        "date_entered":"2019-07-09 10:50:47",
+        "date_modified":"2019-07-09 10:50:47",
+        "modified_user_id":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+        "created_by":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+        "description":null,
+        "deleted":"0",
+        "itg_product_offer_id":"24d68a5a-c847-93de-dbf2-5a183048b256",
+        "component_type":"SPO",
+        "type":"main",
+        "quantity":3,
+        "uom":null,
+        "itg_product_id":null,
+        "sales_cost":0,
+        "additional_cost":0,
+        "min_quantity":0,
+        "max_quantity":0,
+        "itg_record_line_id":"e6874041-cc77-42ed-aa6c-5d2455591544",
+        "include_in_frame_contract":null,
+        "total_discount_percent":null,
+        "contrib_margin_per":"0",
+        "sales_cost_contrib_margin_per":"0",
+        "parent_fc_record_item_id":null,
+        "itg_quote_for_contract_id":null,
+        "new_with_id":false,
+        "itg_product_offer_name":"Business Call L",
+        "characteristics":{
+          "PSC_CUSTOMERACCOUNT-1111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"if Customer Account is needed",
+            "id":"e921f162-0b35-b9dd-3b71-5d24552091f7",
+            "name":"CUSTOMERACCOUNT",
+            "value":"1",
+            "value_id":"12-111111111111111111111111111111111"
+          },
+          "PSC_INSTALLADDRESS-11111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"number of installation address",
+            "id":"e927b2a9-87b4-3249-ffa0-5d2455c78b15",
+            "name":"INSTALLADDRESS",
+            "value":"1",
+            "value_id":"4-1111111111111111111111111111111111"
+          },
+          "a4bd02e8-06df-81a2-a34a-54327dbadf0f":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"pre defined packages  from Rating tariff combinations per services",
+            "id":"e92d0466-524d-1386-0622-5d24550a51a6",
+            "name":"Rating Tariff Package",
+            "value":"Business Call L ",
+            "value_id":"5F30065F-E43A-4281-E053-153BE80A1716"
+          },
+          "3119f44f-8799-9b2f-bcc2-53e38296f9aa":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"e931a4c1-2b69-b513-9072-5d2455e5a5df",
+            "name":"Price Type",
+            "value":"Standard ",
+            "value_id":"b28d9f28-75d2-9b8c-844a-53e382f5e6bb"
+          },
+          "POC_PAYMENTTYPE-11111111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"e9365fcc-1b68-273c-c024-5d2455fb3037",
+            "name":"Payment Type",
+            "value":"На наредна телефонска сметка ",
+            "value_id":"1-1111111111111111111111111111111111"
+          },
+          "POC_CB-11111111111111111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"e93adfa8-49b1-6dfd-9831-5d24552c72d2",
+            "name":"Contract Binding",
+            "value":"24 ",
+            "value_id":"14-111111111111111111111111111111111"
+          },
+          "2009de4b-a35b-c694-52b3-5379c00c4e87":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Поле за рачен внес на вредност со која се множи основната цена кај параметарските цени на продуктни понуди.",
+            "id":"e93f5e9c-224d-bdf6-4330-5d24555b7440",
+            "name":"Вредност - множител на цена",
+            "value":null,
+            "value_id":null
+          },
+          "c3c271bf-96fb-4378-4ffe-53cd1d495f25":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"e9438b06-6d08-a09d-3cec-5d245570428b",
+            "name":"VAT",
+            "value":"18",
+            "value_id":null
+          },
+          "657abd69-f33b-d27a-efdc-5cae20a44ede":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Карактеристика за име на продукт на англиски јазик.\t",
+            "id":"e9491c7f-32fc-fcee-559b-5d24550c7a15",
+            "name":"PRODUKT_EN",
+            "value":"Business Call L",
+            "value_id":null
+          },
+          "1168E0F4-2A29-A558-E055-000000000001":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"11",
+            "id":"e94daca4-a1d2-1711-980d-5d2455671942",
+            "name":"Penali",
+            "value":"3.000 денари",
+            "value_id":null
+          },
+          "f1c3493a-2a60-f682-5634-583d9288896d":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Ова е параметарот кој ќе служи за дефинирање на тоа со што треба да се множи цената према Billing.",
+            "id":"e9525b8d-eaf3-876b-649b-5d2455203503",
+            "name":"Множител во Billing",
+            "value":"100",
+            "value_id":null
+          },
+          "3d132483-d0f9-6ca4-67ed-573485679a4b":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Rules for assignment of customer account for the product (BSCS)",
+            "id":"e956daff-e505-feaa-6162-5d24556f34d9",
+            "name":"Customer Account Rules",
+            "value":"all",
+            "value_id":null
+          },
+          "4fef570f-896f-617c-6030-55e81264b210":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"e95abcfd-290b-2d64-b281-5d2455feb325",
+            "name":"Склучен Договор",
+            "value":null,
+            "value_id":null
+          },
+          "80b45bbb-2a72-721d-974e-5cae1f757688":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Карактеристика за име на продукт на албански јазик.\t",
+            "id":"e95f50b6-87ca-e9ee-201a-5d2455317ade",
+            "name":"PRODUKT_AL",
+            "value":"Business Call L",
+            "value_id":null
+          },
+          "20f9dc5d-1896-efa9-cb24-57348447f7de":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Rules for assignment of billing customer (BSCS)",
+            "id":"e963d6fd-38fc-657f-a03b-5d2455ab5bdb",
+            "name":"Billing Customer Rules",
+            "value":"in hierarchy",
+            "value_id":null
+          },
+          "654280e8-f2db-9748-e8c2-5cae1fc680bb":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Карактеристика за име на продукт на македонски јазик.",
+            "id":"e9686c0a-52ec-6ea7-b479-5d2455df7015",
+            "name":"PRODUCT_MK",
+            "value":"Business Call L",
+            "value_id":null
+          },
+          "3c1a0e01-9bf6-c7c9-0fd1-58208b78a913":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Lists of products for determining portfolios needed for IFRS purposes.",
+            "id":"e96cea77-a0ec-6a7f-b9bc-5d245532f663",
+            "name":"Lists of products for determining portfolios",
+            "value":"4",
+            "value_id":null
+          },
+          "4ecc08f5-6329-33b8-09e9-5492d27f0ef3":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Dali produtot dava  posebni beneficii za credit check (dozvoluva aktivaciaj na addtitional produkti na rati). instalment_products",
+            "id":"e9718cd7-cc86-f7b4-0c13-5d2455a08e1b",
+            "name":"Additional Installments",
+            "value":"yes",
+            "value_id":null
+          },
+          "7ca261f8-f10d-0960-7ec9-55758b2cc137":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"e975a136-82f2-4b32-b01d-5d24552a05eb",
+            "name":"Грејс период",
+            "value":"15",
+            "value_id":null
+          },
+          "cd6d90eb-6950-8534-0d08-5372038a1fef":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"If the Customer Account is configurable or it is inherit from the parent product. This characteristic is used for Additional Products only if the product can have different CA from the parent product.",
+            "id":"e97a5366-b256-b4fb-b5f1-5d24552b0a27",
+            "name":"Editable CA",
+            "value":"yes",
+            "value_id":null
+          },
+          "6f3935d4-fa6e-0f06-f2fc-535a4367b089":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"Net Cracker Product?",
+            "id":"e97ed517-2598-37a1-faf0-5d2455c334d7",
+            "name":"NC Product",
+            "value":"1",
+            "value_id":null
+          },
+          "570dbd7f-16b8-3f6c-b3c0-535a45f26cc1":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"If its BSCS relevant product",
+            "id":"e983a41b-4028-2b9d-66f0-5d2455a352fa",
+            "name":"BSCS Product",
+            "value":"1",
+            "value_id":null
+          }
+        },
+        "prices":[
+          {
+            "component_type":null,
+            "description":"Business Call L 2г.",
+            "id":"e9d80a36-81fb-cf75-eeca-5d2455ebbbf9",
+            "itg_product_offer_price_id":"5EA296C2-06D5-2AFB-E053-153BE80AEDF9",
+            "itg_product_price_id":null,
+            "itg_record_item_id":"e7253f47-86bb-5e62-503a-5d2455c812d8",
+            "name":"Business Call L 2г.",
+            "parametric":"",
+            "parent_id":null,
+            "parent_type":null,
+            "period":null,
+            "price_amount":"0",
+            "price_type":"tariffUsage",
+            "type":null,
+            "uom":null,
+            "cost":"0",
+            "new_with_id":false,
+            "child_prices":[
+              {
+                "component_type":null,
+                "description":null,
+                "itg_product_offer_price_id":"5EA296C2-06D7-2AFB-E053-153BE80AEDF9",
+                "id":"ea092897-ef43-e96d-5f5f-5d24550d8d2c",
+                "new_with_id":false,
+                "itg_product_price_id":"e7253f47-86bb-5e62-503a-5d2455c812d8",
+                "itg_record_item_id":"e7253f47-86bb-5e62-503a-5d2455c812d8",
+                "name":"(периодично)Business Call L 2г.",
+                "parametric":"",
+                "parent_id":"e9d80a36-81fb-cf75-eeca-5d2455ebbbf9",
+                "parent_type":"",
+                "period":"monthly",
+                "price_amount":"999",
+                "price_type":"recurring",
+                "type":null,
+                "uom":null,
+                "cost":null
+              }
+            ]
+          }
+        ],
+        "recurring_price":999,
+        "onetime_price":0,
+        "penalties_price":0,
+        "recurring_price_vat":1178.82,
+        "onetime_price_vat":0,
+        "penalties_price_vat":0
+      }
+    },
+    "total_recurring_price":2997,
+    "total_onetime_price":0,
+    "total_penalties_price":0,
+    "total_recurring_price_vat":3536.46,
+    "total_onetime_price_vat":0,
+    "total_penalties_price_vat":0,
+    "contribution_margin":0
+  },
+  "ea0c26ac-01fc-858e-adb3-5d2455505f28":{
+    "id":"ea0c26ac-01fc-858e-adb3-5d2455505f28",
+    "name":"FIX/ProNET/DATA FIXED",
+    "date_entered":"2019-07-01 13:26:40",
+    "date_modified":"2019-07-09 10:50:47",
+    "modified_user_id":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+    "created_by":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+    "description":null,
+    "deleted":"0",
+    "record_line_type":"product_catalog_related",
+    "product_line_id":"859988C9-0C85-390A-E053-303BE80A0396",
+    "product_line_name":"DATA FIXED",
+    "product_type_id":"859988C9-0C9E-390A-E053-303BE80A0396",
+    "product_type_name":"ProNET",
+    "portfolio_id":"859988C9-0C80-390A-E053-303BE80A0396",
+    "portfolio_name":"FIX",
+    "onetime_discount_percent":30,
+    "monthly_discount_percent":5,
+    "total_discount_percent":null,
+    "parent_fc_record_line_id":null,
+    "new_with_id":false,
+    "items":{
+      "ea74ed73-f74c-3cb8-82e5-5d245578ac89":{
+        "id":"ea74ed73-f74c-3cb8-82e5-5d245578ac89",
+        "name":"ProNET",
+        "date_entered":"2019-07-09 10:50:47",
+        "date_modified":"2019-07-09 10:50:47",
+        "modified_user_id":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+        "created_by":"cd5d6e38-ae03-68b4-d53c-5a96a95fc18f",
+        "description":null,
+        "deleted":"0",
+        "itg_product_offer_id":"65385c4f-4417-0ac5-2b60-5b1e640fa93d",
+        "component_type":"SPO",
+        "type":"main",
+        "quantity":5,
+        "uom":null,
+        "itg_product_id":null,
+        "sales_cost":0,
+        "additional_cost":0,
+        "min_quantity":0,
+        "max_quantity":0,
+        "itg_record_line_id":"ea0c26ac-01fc-858e-adb3-5d2455505f28",
+        "include_in_frame_contract":null,
+        "total_discount_percent":null,
+        "contrib_margin_per":"0",
+        "sales_cost_contrib_margin_per":"0",
+        "parent_fc_record_item_id":null,
+        "itg_quote_for_contract_id":null,
+        "new_with_id":false,
+        "itg_product_offer_name":"ProNET",
+        "characteristics":{
+          "PSC_CUSTOMERACCOUNT-1111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"if Customer Account is needed",
+            "id":"ec4813b8-a8ad-f668-8ac7-5d2455bc7a39",
+            "name":"CUSTOMERACCOUNT",
+            "value":"1",
+            "value_id":"12-111111111111111111111111111111111"
+          },
+          "PSC_INSTALLADDRESS-11111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"number of installation address",
+            "id":"ec4d7afa-a29b-f6f6-90de-5d2455ca6a0f",
+            "name":"INSTALLADDRESS",
+            "value":"1",
+            "value_id":"4-1111111111111111111111111111111111"
+          },
+          "c650036d-8d5a-a298-5fb6-53733047149c":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"SLA/OLA Template",
+            "id":"ec524e2f-7585-4314-334a-5d2455b51324",
+            "name":"SLA/OLA Template",
+            "value":"OLA10 ",
+            "value_id":"q9957ca1-b7fc-4c58-b786-55e5c1abc018"
+          },
+          "3119f44f-8799-9b2f-bcc2-53e38296f9aa":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec5692b1-c3a8-ca87-6c26-5d24558506ab",
+            "name":"Price Type",
+            "value":"Standard ",
+            "value_id":"b28d9f28-75d2-9b8c-844a-53e382f5e6bb"
+          },
+          "91e5ef83-c125-6d57-95fd-5379f1fa52ce":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":null,
+            "id":"ec5af853-c867-3f78-a0bd-5d24559b632d",
+            "name":"SubTechnology (for Fiber)",
+            "value":"Gpon ",
+            "value_id":"2773e0c4-362e-a814-fffc-5379f14ed6e5"
+          },
+          "c5b7acf6-0e90-4ae6-fa13-534656a0ffee":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":null,
+            "id":"ec5f4cad-ac21-d16d-e57a-5d2455a143a9",
+            "name":"Speed",
+            "value":"150 Mbit/s",
+            "value_id":"17a8b283-a331-8284-be9b-55094ae55d11"
+          },
+          "POC_PAYMENTTYPE-11111111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec638fe8-378e-5ca1-1d56-5d245526edfb",
+            "name":"Payment Type",
+            "value":"На наредна телефонска сметка ",
+            "value_id":"1-1111111111111111111111111111111111"
+          },
+          "POC_CB-11111111111111111111111111111":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec67b4c8-c2bc-217b-584b-5d24551e4e2c",
+            "name":"Contract Binding",
+            "value":"36 ",
+            "value_id":"50-111111111111111111111111111111111"
+          },
+          "b7f9c24e-d8bc-3529-0689-5379c997b794":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":null,
+            "id":"ec6bdd54-2f4c-c5cf-a8f9-5d24551812b0",
+            "name":"Interface",
+            "value":"Ethernet ",
+            "value_id":"62ad740f-be10-8c12-7987-5379cae34ea8"
+          },
+          "2009de4b-a35b-c694-52b3-5379c00c4e87":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Поле за рачен внес на вредност со која се множи основната цена кај параметарските цени на продуктни понуди.",
+            "id":"ec7066ae-750f-a831-d9ff-5d24550d9268",
+            "name":"Вредност - множител на цена",
+            "value":"15000",
+            "value_id":null
+          },
+          "e26ead52-1294-f6d7-7d1f-5379ef698b82":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec76eabd-61ad-ae6d-3fe3-5d2455fbae0a",
+            "name":"Вклучен рутер",
+            "value":"да ",
+            "value_id":"91dd454b-60f5-0867-23b6-5379efe67775"
+          },
+          "753a9a80-f3bc-56ef-a0f9-54c21ff803b0":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec7b65a6-1a19-d92d-00b0-5d2455553444",
+            "name":"Сопственост на рутерот",
+            "value":"МКТ ",
+            "value_id":"3e86a4a4-803c-f39a-b995-54c21fd104ba"
+          },
+          "e75aa75a-a3a2-d632-01e5-54c21f7eca79":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec7fa7de-a87c-4f72-c9c2-5d2455aaefb4",
+            "name":"Менаџирање на рутерот",
+            "value":"од МКТ ",
+            "value_id":"84a8c7f3-31b0-1754-bb0e-54c21fb16529"
+          },
+          "f1c3493a-2a60-f682-5634-583d9288896d":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Ова е параметарот кој ќе служи за дефинирање на тоа со што треба да се множи цената према Billing.",
+            "id":"ec841f67-9f52-3a56-bfd7-5d24555744a7",
+            "name":"Множител во Billing",
+            "value":"100",
+            "value_id":null
+          },
+          "20f9dc5d-1896-efa9-cb24-57348447f7de":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Rules for assignment of billing customer (BSCS)",
+            "id":"ec884fc3-2f4c-a283-5595-5d24553d4613",
+            "name":"Billing Customer Rules",
+            "value":"in hierarchy",
+            "value_id":null
+          },
+          "4fef570f-896f-617c-6030-55e81264b210":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec8bd452-8f2a-796e-0fa5-5d2455a61a71",
+            "name":"Склучен Договор",
+            "value":null,
+            "value_id":null
+          },
+          "3d132483-d0f9-6ca4-67ed-573485679a4b":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Rules for assignment of customer account for the product (BSCS)",
+            "id":"ec901c47-06ca-badf-274d-5d24554fe4e9",
+            "name":"Customer Account Rules",
+            "value":"all",
+            "value_id":null
+          },
+          "1168E0F4-2A29-A558-E055-000000000001":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"11",
+            "id":"ec9448dc-2726-878e-792f-5d2455ecb62c",
+            "name":"Penali",
+            "value":"3 години ProNET",
+            "value_id":null
+          },
+          "c3c271bf-96fb-4378-4ffe-53cd1d495f25":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":null,
+            "id":"ec98768a-46bb-9305-b487-5d245537344a",
+            "name":"VAT",
+            "value":"18",
+            "value_id":null
+          },
+          "3c1a0e01-9bf6-c7c9-0fd1-58208b78a913":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"Lists of products for determining portfolios needed for IFRS purposes.",
+            "id":"ec9cbcad-78de-639f-76e6-5d2455f5f00c",
+            "name":"Lists of products for determining portfolios",
+            "value":"4",
+            "value_id":null
+          },
+          "1168E0F4-2A2A-A558-E055-000000000001":{
+            "new_with_id":false,
+            "characteristic_type":"ProductOfferCharModel",
+            "description":"6",
+            "id":"eca0d834-2daa-e6be-b9a6-5d24551a9723",
+            "name":"Period",
+            "value":"неопределено време",
+            "value_id":null
+          },
+          "85731be9-6d4c-5991-7ed7-53c0005ffb88":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":null,
+            "id":"eca4b945-fc41-f9ee-6b0b-5d24558471ad",
+            "name":"TT_Service_ID",
+            "value":"LL",
+            "value_id":null
+          },
+          "cd6d90eb-6950-8534-0d08-5372038a1fef":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"If the Customer Account is configurable or it is inherit from the parent product. This characteristic is used for Additional Products only if the product can have different CA from the parent product.",
+            "id":"eca91942-f34e-355f-52cd-5d2455559d50",
+            "name":"Editable CA",
+            "value":"yes",
+            "value_id":null
+          },
+          "570dbd7f-16b8-3f6c-b3c0-535a45f26cc1":{
+            "new_with_id":false,
+            "characteristic_type":"ProductSpecCharModel",
+            "description":"If its BSCS relevant product",
+            "id":"ecad3d2d-1fa7-052f-c0f9-5d2455b0557e",
+            "name":"BSCS Product",
+            "value":"1",
+            "value_id":null
+          }
+        },
+        "prices":[
+
+        ],
+        "recurring_price":0,
+        "onetime_price":0,
+        "penalties_price":0,
+        "recurring_price_vat":0,
+        "onetime_price_vat":0,
+        "penalties_price_vat":0
+      }
+    },
+    "total_recurring_price":0,
+    "total_onetime_price":0,
+    "total_penalties_price":0,
+    "total_recurring_price_vat":0,
+    "total_onetime_price_vat":0,
+    "total_penalties_price_vat":0,
+    "contribution_margin":0
+  }
+}
